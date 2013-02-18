@@ -1,0 +1,193 @@
+body {
+	backgroud: #fff;
+	font-size: 12px;
+	color: #000000;
+	font-family: Arial;
+}
+fieldset {
+	border: none;
+}
+form.account {
+	background: #f9f9f9;
+	width: 300px;
+	margin: 100px auto 0;
+	border: 1px #ccc solid;
+	padding: 20px;
+}
+form.account legend {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+form.account input {
+	width: 290px;
+	border: none;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	height: 30px;
+	font-size: 14px;
+}
+label {
+	display: block;
+	margin-bottom: 2px;
+}
+.submit {
+	width: 215px;
+	border: none;
+	height: 30px;
+	font-size: 14px;
+	float: right;
+	padding: 0 10px;
+	margin-top: 185px;
+	margin-left: 20px;
+}
+.submitAccount {
+	width: 290px;
+	border: none;
+	height: 30px;
+	font-size: 14px;
+	float: right;
+	padding: 0 10px;	
+}
+.linksTextarea {
+	float: left;
+}
+.fonte {
+	width: 740px;
+	height: 25px;
+	margin-bottom: 10px;
+}
+.content {
+	width: 340px;	
+	margin: 5px auto;
+	line-height: 16px;
+}
+.content2 {
+	background: #f9f9f9;
+	width: 980px;
+	margin: 100px auto 0;
+	border: 1px #ccc solid;
+	padding: 20px;	
+	line-height: 16px;
+}
+.content2 h4 {
+	font-size: 16px;
+}
+.container {
+	background: #f9f9f9;
+	width: 980px;
+	padding: 20px;
+	border: 1px #ccc solid;
+	margin: auto;
+	margin-top: 31px;
+}
+
+.intestazione {
+	width: 960px;
+	height: 20px;
+	margin: auto;
+	padding: 10px;
+}
+.intestazione a.logout {
+	float: right;
+	text-decoration: none;
+	color: #c00;
+	line-height: 20px;
+	display: block;
+}
+.intestazione a.logout img {
+	float: left;
+	margin-right: 5px;
+}
+.menu {
+	display: block;
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -489px;
+}
+.menu li {
+	display: block;
+	float: left;
+	margin-right: 2px;
+}
+.menu li a {
+	display: block;
+	background: #fdfdfd;
+	height: 30px;
+	padding: 0 10px;
+	line-height: 30px;
+	border: 1px #ccc solid;
+	text-decoration: none;
+	color: #000;
+	
+}
+.menu li a.active {
+	border-bottom: 1px #f9f9f9 solid;
+	background: #f9f9f9;
+}
+.tablePhotos {
+	width: 100%;
+	margin: 10px auto;
+	text-align: center;
+	background: #fdfdfd;
+}
+.tablePhotos thead th,
+.tablePhotos tbody td {
+	height: 20px;
+	vertical-align: middle;
+}
+.tablePhotos tbody tr {
+	height: 148px;
+	border-bottom: 1px #ccc solid;
+}
+.tablePhotos thead {
+	border-bottom: 1px #ccc solid;
+}
+.pagination {
+	margin: auto;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+}
+.pagination a {
+	text-decoration: none;
+	color: #0099cc;
+}
+.addPhotoLink {
+	display: block;
+	text-decoration: none;
+	color: #0099cc;
+	height: 30px;
+	line-height: 30px;
+}
+.addPhotoLink img {
+	float: left;
+	margin-right: 5px;
+}
+#boxes {
+	display: none;
+	margin-top: 20px;
+}
+#boxes .boxCheck {
+	float: left;
+	width: 178px;
+	height: 140px;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	background: #F0F0F0;
+	text-align: center;	
+	margin: 0 20px 20px 0;
+	border: 1px #ccc solid;
+}
+#boxes .boxCheck.last {
+	margin-right: 0;
+}
+#boxes .boxCheck img {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.clear {
+	clear: both;
+}

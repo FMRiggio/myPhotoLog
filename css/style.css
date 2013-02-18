@@ -1,0 +1,96 @@
+@CHARSET "UTF-8";
+body {
+	background: #000;
+}
+.container {
+	position: relative;
+	width: 980px;
+	margin: auto;
+	height: 100%;	
+}
+.title {
+	position: absolute;
+	display: block;
+	top: 250px;
+	right: 0;
+}
+.box {
+	position: relative;
+	width: 980px;
+	height: 130px;
+	margin: 10px 0; 
+	float: left;
+	z-index: 10;
+}
+.box1 {
+	width: 800px;
+}
+.box2 {
+	width: 450px;
+}
+.box .image {
+	float: left;
+	width: 178px;
+	height: 128px;
+	border: 1px #fff solid;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.image.last {
+	margin-right: 0;
+}
+.clear { clear: both; }
+#leftArea {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	background: none;
+	left: 0;
+	top: 0;
+	z-index: 10000;
+	opacity: 0.75;
+	left: 50%;
+	margin-left:-490px;
+}
+#leftArea img {
+	display: none;
+	position: fixed;
+	top: 50%;
+}
+#rightArea {
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 100%;
+	background: none;
+	right: 0;
+	top: 0;
+	z-index: 10000;
+	opacity: 0.75;
+	left: 50%;
+	margin-left: 440px;	
+}
+#rightArea img {
+	display: none;
+	position: fixed;
+	top: 50%;
+}
+#fancybox-title-over {
+	height: 21px !important;
+	line-height: 21px !important;
+	padding: 5px 10px !important;
+	position: relative;
+}
+#fancybox-title-over .link {
+	display: block;
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+}
+#fancybox-title-over .fonte {
+	display: block;
+	position: absolute;
+	right: 71px;
+	bottom: 5px;
+}
